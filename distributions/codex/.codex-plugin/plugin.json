@@ -1,0 +1,10 @@
+{
+	"name": "unsolicited-comments",
+	"version": "0.1.0",
+	"description": "Code that explains itself.",
+	"hooks": "./hooks/hooks.json",
+	"interface": {
+		"displayName": "unsolicited-comments",
+		"shortDescription": "Code that explains itself."
+	}
+}

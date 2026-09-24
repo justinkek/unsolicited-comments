@@ -1,0 +1,15 @@
+{
+	"name": "unsolicited-comments",
+	"description": "Code that explains itself.",
+	"owner": {
+		"name": "Justin Kek",
+		"email": "justinkekjq@gmail.com"
+	},
+	"plugins": [
+		{
+			"name": "unsolicited-comments",
+			"source": "./distributions/claude",
+			"description": "Code that explains itself."
+		}
+	]
+}
