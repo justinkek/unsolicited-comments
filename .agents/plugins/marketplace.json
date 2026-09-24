@@ -1,0 +1,16 @@
+{
+	"name": "unsolicited-comments",
+	"interface": {
+		"displayName": "unsolicited-comments",
+		"shortDescription": "Code that explains itself."
+	},
+	"plugins": [
+		{
+			"name": "unsolicited-comments",
+			"source": {
+				"source": "local",
+				"path": "./distributions/codex"
+			}
+		}
+	]
+}

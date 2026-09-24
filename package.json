@@ -1,0 +1,11 @@
+{
+	"name": "unsolicited-comments",
+	"version": "0.1.0",
+	"description": "Code that explains itself.",
+	"license": "MIT",
+	"author": {
+		"name": "Justin Kek",
+		"email": "justinkekjq@gmail.com"
+	},
+	"displayName": "unsolicited-comments"
+}

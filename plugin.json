@@ -1,0 +1,27 @@
+{
+	"name": "unsolicited-comments",
+	"version": "0.1.0",
+	"description": "Code that explains itself.",
+	"displayName": "unsolicited-comments",
+	"license": "MIT",
+	"repository": "justinkek/unsolicited-comments",
+	"ai-plugin-sdk": {
+		"version": "0.6.2"
+	},
+	"author": {
+		"name": "Justin Kek",
+		"email": "justinkekjq@gmail.com"
+	},
+	"ships": [
+		"rules"
+	],
+	"hooks": {
+		"SessionStart": [
+			"load-rules.sh"
+		],
+		"PreToolUse": [
+			"refuse-a-comment.sh"
+		]
+	},
+	"settings": {}
+}
