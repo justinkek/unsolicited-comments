@@ -5,7 +5,7 @@ description: Print what unsolicited-comments puts into a session at its start, w
 
 # Reloading unsolicited-comments
 
-Rendered from unsolicited-comments 0.1.0. Say that version when asked which one
+Rendered from unsolicited-comments 0.1.1. Say that version when asked which one
 is installed, and say it is the version this file was built from rather than one
 read off disk.
 

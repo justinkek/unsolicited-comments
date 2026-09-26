@@ -111,6 +111,6 @@ count="$(comm -23 <(printf '%s\n' "$new_comments") <(printf '%s\n' "$old_comment
 
 reason="Comment denied: this edit adds $count comment line(s) to $fp. Write the change without them, and carry what the comment would have said one of these ways instead: assert the invariant at runtime using a value the code already has; rename the function or variable so the constraint reads off the code; write a test whose failure teaches it; write it up in the repo's own docs, separate from the code. There is no escape hatch — do not retry, do not ask, do not work around this deny. If none of those can carry it, say what you would write and where, and leave it for the user to add by hand."
 
-jq -nc --arg r "$reason" \
-  '{hookSpecificOutput:{hookEventName:"PreToolUse",permissionDecision:"deny",permissionDecisionReason:$r}}'
+. "$(dirname "$0")/lib/permission.sh"
+hook_permission deny "$reason"
 exit 0
