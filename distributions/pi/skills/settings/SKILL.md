@@ -17,6 +17,12 @@ Blank lines and lines opening with `#` are ignored, and the last assignment of a
 
 `UNSOLICITED_COMMENTS_HOME` moves the settings file and the state under it together.
 
+A project can hold settings of its own in `.unsolicited-comments/settings` at its root, in
+the same shape. The hooks read it before `~/.unsolicited-comments/settings`, and an
+environment variable before either. Write there when the user wants a value
+for everyone working in the project rather than for themselves, and say that
+it is a file to commit.
+
 ## Before writing anything
 
 Read the steps below. Where they say no hook runs, write no
@@ -67,7 +73,7 @@ run the reload skill to be given it again with the new one.
 
 ## Note
 
-Rendered from unsolicited-comments 0.1.0. Say that version when asked which one is
+Rendered from unsolicited-comments 0.1.1. Say that version when asked which one is
 installed, and say it is the version this file was built from rather than one
 read off disk.
 
